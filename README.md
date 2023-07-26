@@ -66,7 +66,7 @@ After you start the container for the first time, it will create a few directori
 - MANDATORY: First -- copy the template config file in place: `cp ~/.planefence/planefence.config-RENAME-and-EDIT-me ~/.planefence/planefence.config`
   - ALTERNATIVE - If you have used PlaneFence before and created a `.env` file, you can use this file as a basis for your `planefence.config` file. You can copy it with `sudo cp /opt/planefence/.env ~/.planefence/planefence.config`. However, there are many new features and setting described in the `planefence.config-RENAME-and-EDIT-me file`. You should take notice and copy these in! There are some items (like the setup for the different feeders) that are not needed by `planefence.config`.
   - Note -- placing the full parameter set in `.env` is OBSOLETE and support for this will be withdrawn in the next version of PlaneFence
-- MANDATORY: `sudo nano ~/.planefence/planefence.config` Go through all parameters - their function is explained in this file. Edit to your liking and save/exit.
+- MANDATORY: `sudo nano ~/.planefence/planefence.config` Go through all parameters - their function is explained in README-pfconfig.md. Edit to your liking and save/exit.
 
 #### Preparing other PlaneFence settings
 These settings are all optional, but will help provide the best experience for you.
